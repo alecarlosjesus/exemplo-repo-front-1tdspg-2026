@@ -1,23 +1,75 @@
-/* TEXTO */
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+html{
+    font-size: 62.5%; /*1 rem = 10px  */
+}
 
-    font-size: 16px;
+body{
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 1.6rem;
+    background-color: rgb(7, 7, 27);
+    color: white;
 }
 
 header{
-    background-color: #333;
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+header h1{
+    text-align: center;
+	width: 6rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    gap: 20px;
+    width: 90%;
+    margin-right: 15rem;
+}
+
+
+ul li a{
+    display: inline-flex;
+    color: rgb(10, 7, 31);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.9rem;
     
 }
 
-h1{
-    text-align: center;
+ul li a:hover{
+    background-color: antiquewhite;
 }
 
-nav{
-    margin: 0 auto;
-    width: 70%;
+ul li a.active {
+  background-color: rgb(212, 185, 208);
+  font-weight: bold;
 }
+
+h2{
+    font: size 1.6em;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+p{
+    font-size: 1.5rem;
+    margin-left: 7%;
+}
+
+.linkPagina{
+    margin-left: 7%;
+    color: gray;
+}
+
