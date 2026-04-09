@@ -51,3 +51,9 @@ body{
     background-color: #333;
     color: aqua;
 }
+#container{
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid #333;
+    padding: 1%;
+}
