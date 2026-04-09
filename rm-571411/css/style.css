@@ -1,11 +1,18 @@
 /* TEXTO */
+html{
+    font-size: 20px;
+}
+
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    font-size: inherit;  /*|Inherit significa herança|*/
+    font-size: 1rem; /*Medida usada para fontes e tamanhos, que usa de base o pai.*/
 }
 
-header{
-    background-color: #fd0000;
+#cabecalho{
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,17 +20,19 @@ header{
     background-color: #333;
 }
 
-header h1{
+#cabecalho h1{
     color: white;
 }
 
-nav ul{
+#menu ul{
     list-style: none;
     display: flex;
     gap: 20px;
 }
-nav a{
+#menu a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 20px;
+    transition: background-color 0.3s ease;
 }   
