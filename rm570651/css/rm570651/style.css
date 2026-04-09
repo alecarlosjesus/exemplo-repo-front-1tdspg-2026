@@ -1,23 +1,56 @@
+
+#html{
+    font-size: 62.5%; /* 1rem = 10px */
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+    margin: 1%;
+
+}
+
 /* TEXTO */
-body{
+#body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    font-size: 2rem;
 
-    font-size: 16px;
 }
 
-header{
-    background-color: #333;
+#cabecalho {
+    background-color: #e60202;
     margin: 0 auto;
-    width: 70%;
-    
+    width: 100%;
+    border-radius: 5px;
 }
 
-h1{
+#cabecalho h1{
     text-align: center;
 }
 
-nav{
+#menu{
+    background-color: rgb(0, 255, 153);
     margin: 0 auto;
     width: 70%;
+}
+#menu ul li{
+    list-style: none;
+    display: inline-block; 
+    margin: 0 5%;
+    justify-content: space-around;
+    padding: 0;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(0, 255, 153);
+    display: inline-block;
+}
+#menu ul li a:hover{
+    background-color: rgb(34, 18, 122);
+    color: white;
+    border-radius: 5px;
 }
