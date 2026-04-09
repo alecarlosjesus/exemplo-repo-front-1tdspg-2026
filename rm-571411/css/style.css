@@ -2,22 +2,28 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-
-    font-size: 16px;
 }
 
 header{
+    background-color: #fd0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     background-color: #333;
-    margin: 0 auto;
-    width: 70%;
-    
 }
 
-h1{
-    text-align: center;
+header h1{
+    color: white;
 }
 
-nav{
-    margin: 0 auto;
-    width: 70%;
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}   
