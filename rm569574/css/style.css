@@ -19,9 +19,12 @@ body{
 }
 
 #cabecalho h1{
+
     text-align: center;
 }
-
+#logo h1{
+    text-align: left;
+}
 #menu{
     margin: 0 auto;
     width: 70%;
@@ -35,7 +38,8 @@ body{
 #menu ul li{
     display: inline-block;
     margin: 0 5%;
-
+    text-align: right;
+    
 }
 #menu ul li a{
     display: inline-block;
@@ -46,6 +50,8 @@ body{
     background-color:rgb(19, 19, 97) ;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    
+    
 }
 #menu ul li a:hover{
     background-color: #333;
