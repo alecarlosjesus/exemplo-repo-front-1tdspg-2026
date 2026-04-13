@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+/* h1{
+    border: 5px solid black;
+     
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black; 
+
+ margin-left: 50px;
+ margin-right: 50px;
+ padding: 0 50px;
+ width: 150px;
+ 
+margin-top: 100px;
+margin-right: 100px;
+margin-bottom: 100px;
+margin-left: 100px; 
+
+} */
