@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+    padding: 0;
+
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
