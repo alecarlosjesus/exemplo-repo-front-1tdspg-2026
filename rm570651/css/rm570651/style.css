@@ -3,9 +3,10 @@
     font-size: 62.5%; /* 1rem = 10px */
 }
 #container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    margin: 1%;
+    border: 2px solid black;
+    padding: 0%;
 
 }
 
