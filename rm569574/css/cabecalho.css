@@ -1,0 +1,31 @@
+.cabecalho{
+    background-color: rgb(162, 158, 158);
+    width: 100%;
+    height: 10%;
+
+}
+.cabecalho__nav, .cabecalho__ul{
+    width: inherit;
+    height: inherit;
+}
+
+.cabecalho__li{
+    display: inline-block;
+    margin: 1.4rem;
+}
+.cabecalho__a{
+    display: inline-block;
+    background-color: rgb(66 133 244);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 10vw;
+    text-align: center;
+
+}
+.cabecalho__a--active, .cabecalho__li--active{
+    float: right;
+}
+.cabecalho__a:hover{
+    background-color: black;
+    color: #fff
+}
