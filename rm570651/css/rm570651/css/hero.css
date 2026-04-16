@@ -1,0 +1,15 @@
+.hero {
+    background-color: #fababa;
+    height: 100%;
+    width: 100%;
+}
+.hero__container{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/sports-tools\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #1606f3;
+
+}
