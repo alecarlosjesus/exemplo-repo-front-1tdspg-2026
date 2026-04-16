@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +8,8 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 62.5%;/* 10px = 1rem */
 }
-
 
 body{
     width: 100vw;
@@ -25,11 +25,4 @@ a{
 
 ul{
     list-style: none;
-}
-
-
-h1{
-	width: 5rem;
-    margin-left: px;
-    margin-top: 3px;
 }
