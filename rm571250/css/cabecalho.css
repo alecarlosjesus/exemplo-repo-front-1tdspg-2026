@@ -1,0 +1,24 @@
+.cabecalho {
+    background-color: rgb(167, 114, 114);
+    width: 100%;
+    height: 10%;
+}
+
+.cabecalho__nav,.cabecalho__ul {
+    width: inherit;
+    height: inherit;
+}
+
+.cabecalho__nav {
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+.cabecalho__a {
+    display: inline-block;
+    background-color: rgb(64, 64, 218);
+    border-radius: 5%;
+    padding: 1rem;
+    width: 10vw;
+    text-align: center;
+}
