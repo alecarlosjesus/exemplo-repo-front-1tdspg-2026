@@ -6,8 +6,9 @@
     font-size: 100%;
     font-weight: normal;
 }
+
 html{
-    font-size: 62.5%; /*10px=1rem*/
+    font-size: 62.5%;/* 10px = 1rem */
 }
 
 body{
@@ -19,12 +20,9 @@ body{
 
 a{
     text-decoration: none;
-    color:inherit
+    color:inherit;
 }
 
 ul{
     list-style: none;
 }
-
-
-
