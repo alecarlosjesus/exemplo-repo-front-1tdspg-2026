@@ -1,17 +1,17 @@
 .cabecalho{
-    background-color: #aca5ac;
+    background-color: #aca5a5;
     width: 100%;
     height: 10%;
 }
 
-.cabecalho__nav,.cabecalho__ul{
+.cabecalho__nav, .cabecalho__ul{
     width: inherit;
     height: inherit;
 }
 
 .cabecalho__li{
     display: inline-block;
-    margin: 2rem;
+    margin:2rem;
 }
 
 .cabecalho__a{
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.cabecalho__a--active,.cabecalho__li--active{
+.cabecalho__a--active,.cabecalho__li-active{
     float: right;
 }
 
