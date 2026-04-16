@@ -22,3 +22,13 @@
     width: 10vw;
     text-align: center;
 }
+
+.cabecalho__a--active,.cabecalho__li-active{
+    float: right;
+}
+
+.cabecalho__a:hover{
+    background-color: black;
+    color: aliceblue;
+    
+}
