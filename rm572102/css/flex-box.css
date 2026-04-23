@@ -16,10 +16,13 @@ body{
 }
 
 .container{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
+    align-content: start;
 }
 
 .item{
