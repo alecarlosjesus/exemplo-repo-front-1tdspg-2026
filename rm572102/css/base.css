@@ -15,7 +15,7 @@
     --cor-texto-secundario: #868181;
     --title-main: 4rem;
     --sub-title: 2.5rem;
-    --overlay-gradiente: linear-gradient(180deg, rgba(231, 68, 68, 0.425), rgba(80, 133, 193, 0.5));
+    --overlay-gradiente: linear-gradient(45deg, rgba(231, 68, 169, 0.425), rgba(97, 193, 80, 0.5));
 }
 
 html{
