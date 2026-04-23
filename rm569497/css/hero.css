@@ -1,5 +1,5 @@
 .hero{
-    background-color: #ebb7b7;
+    background-color: var(--cor-fundo);
     width: 100%;
     height: 100vh;
  
@@ -7,12 +7,71 @@
  
 .hero__container{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    padding: 1%;
+
     background-image: var(--overlay-gradient), url("../img/img-01-fundo-hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    padding: 1%;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
  
+}
+.hero__title{
+    font-size: var(--tittle-main);
+    font-weight: bold;
+    margin: 0 auto;
+}
+.hero__text{
+    font-size: var(--sub-tittle-main);
+    margin: 0 auto;
+    line-height: 4rem;
+}
+.hero__btn{
+    width: 200px;
+    height: 50px;
+    background-color: var(--cor-primaria);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 320px){
+    .herocontainer{
+        padding: 5%;
+    }
+
+    .herotitle{
+        font-size: 3rem;
+    }
+
+    .herotext{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+@media (max-width:600px){
+    .herocontainer{
+        padding: 5%;
+    }
+
+    .herotitle{
+        font-size: 3rem;
+    }
+
+    .hero__text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
 }
