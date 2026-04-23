@@ -26,10 +26,11 @@ body{
 }
 
 .item{
-    width: 150px;
-    height: 150px;
+    
     background-color: #698fca;
     color: #fff;
+    width: 100px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
