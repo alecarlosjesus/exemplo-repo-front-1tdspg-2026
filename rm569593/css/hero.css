@@ -47,3 +47,53 @@
     background-color: var(--cor-secundaria);
     color: var(--cor-texto-secundario);
 }
+/* 
+        @media (condição){
+            seletores{
+                regras de estilo
+            }
+        } 
+    
+*/
+
+@media (min-width:320px){
+    .hero__container{
+        padding: 5%;
+    }
+
+    .hero__title{
+        font-size: 3rem;
+    }
+
+    .hero__text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+     .hero__btn{
+        font-size: 1.5rem;
+        width: 30vw;
+        padding: 1rem;
+    }
+}
+
+@media (min-width:680px){
+    .hero__container{
+        padding: 4%;
+    }
+
+    .hero__title{
+        font-size: 5rem;
+    }
+
+    .hero__text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+     .hero__btn{
+        font-size: 1.5rem;
+        width: 30vw;
+        padding: 1rem;
+    }
+}
