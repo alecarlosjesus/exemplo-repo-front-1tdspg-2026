@@ -1,14 +1,15 @@
 .hero{
     background-color: #ebb7b7;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 
 }
 
 .hero__container{
     width: 100%;
     height: 100%;
-    background-image: url("../img/image.png");
+    padding: 1%;
+    background-image: var(--overlay-gradiente), url("../img/image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
