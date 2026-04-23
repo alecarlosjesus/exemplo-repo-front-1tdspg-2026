@@ -9,7 +9,7 @@
     height: 100%;
     padding: 1%;
 
-    background-image: var(--overlay-gradiente), url("../img/img-01-fundo-hero.jpg");
+    background-image: var(--overlay-gradiente), url("../img/image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,4 +46,32 @@
 .hero__btn:hover{
     background-color: var(--cor-secundaria);
     color: var(--cor-texto-secundario);
+}
+/* 
+        @media (condição){
+            seletores{
+                regras de estilo
+            }
+        } 
+    
+*/
+
+@media (min-width:680px){
+    .hero__container{
+        padding: 5%;
+    }
+
+    .hero__title{
+        font-size: 3rem;
+    }
+
+    .hero__text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .hero__btn{
+        font-size: 1.5rem;
+        width: 30vw;
+        padding: 1rem;
+    }
 }
