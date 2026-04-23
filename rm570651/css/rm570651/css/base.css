@@ -15,7 +15,7 @@
     --cor-texto-secundario: #868181;
     --title-main: 4rem;
     --sub-title: 2.5rem;
-    --overlay-gradiente: linear-gradient(180deg, rgba(231, 68, 68, 0.425), rgba(49, 233, 132, 0.288));
+    --overlay-gradiente: linear-gradient(45deg, rgba(67, 233, 80, 0.425), rgba(97, 193, 80, 0.5));
 }
 
 html{
@@ -26,21 +26,20 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
 
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 main{
     width: 100%;
-   
 }
 
 a{
     text-decoration: none;
-    color:inherit
+    color:inherit;
 }
 
 ul{

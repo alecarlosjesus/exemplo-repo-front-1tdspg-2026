@@ -1,7 +1,7 @@
 .cabecalho{
-    background-color: #d8d8d8;
+    background-color: #aca5a5;
     width: 100%;
-    height: 10%;
+    height: 5%;
 }
 
 .cabecalho__nav, .cabecalho__ul{
@@ -9,25 +9,39 @@
     height: inherit;
 }
 
-.cabecalho__li{
-    display: inline-block;
-    margin:1.5rem;
+.cabecalho__ul{
+    display: flex;
+    justify-content: center;
 }
+
+/*.cabecalho__li{
+    display: inline-block;
+    margin:2rem;
+}
+*/
+
 
 .cabecalho__a{
     display: inline-block;
-    background-color: rgb(64, 147, 255);
+    background-color: #698fca;
     border-radius: 10px;
-    padding: 1rem;
     width: 10vw;
+    padding: 1rem;
     text-align: center;
-    float: left;
 }
-.cabecalho__a--active, .cabecalho__li--active{
+
+.cabecalho__a--active,.cabecalho__li-active{
     float: right;
 }
-.cabecalho__a:hover{
-    background-color: black;
-    color: rgb(3, 28, 255);
 
-} 
+.cabecalho__a:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+@media (min-width: 320px){
+    .cabecalho__a{
+        font-size: 1.1rem;
+        width: 20vw;
+    }
+}
