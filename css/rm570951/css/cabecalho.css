@@ -9,10 +9,15 @@
     height: inherit;
 }
 
-.cabecalho__li{
+.cabecalho__ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .cabecalho__li{
     display: inline-block;
     margin:2rem;
-}
+} */
 
 .cabecalho__a{
     display: inline-block;
@@ -30,4 +35,12 @@
 .cabecalho__a:hover{
     background-color: #000000;
     color: #fff;
+}
+
+@media (min-width:320px){
+
+    .cabecalho__a{
+        font-size: 1.1rem;
+        width: 20vw;
+    }
 }
