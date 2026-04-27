@@ -110,8 +110,6 @@ body {
 
   @media (max-width:320px){
       .container{
-    grid-template-rows: repeat(4,1fr);
-    grid-template-columns: repeat(4,1fr);
     grid-template-areas: 
         "header header header header"
         "main main main main"
