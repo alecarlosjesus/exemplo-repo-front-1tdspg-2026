@@ -104,7 +104,7 @@ body{
     background-color: #d7df3a;
   }
 
-  @media (max-width:320px){
+  @media (max-width:320px) {
     .container{
     grid-template-areas: 
     "header header header header"
@@ -113,6 +113,7 @@ body{
     "footer footer footer footer"
     ;
   }
+}
 
   
  
