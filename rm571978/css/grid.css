@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.item{
+    background-color: #205a23;
+    color: #fff;
+}
+
+.container{
+    display: grid;
+    
+    grid-template-columns:repeat(3,1fr);
+    /* column-gap: 10px; */
+
+    grid-template-rows: repeat(2,1fr);
+    /* row-gap: 10px ; */
+
+    gap: 10px;
+} 
