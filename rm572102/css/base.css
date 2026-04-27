@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+:root{
+    --cor-primaria: #698fca;
+    --cor-secundaria: #aca5a5;
+    --cor-fundo: #ebb7b7;
+    --cor-texto-primario: #fff;
+    --cor-texto-secundario: #868181;
+    --title-main: 4rem;
+    --sub-title: 2.5rem;
+    --overlay-gradiente: linear-gradient(45deg, rgba(231, 68, 169, 0.425), rgba(97, 193, 80, 0.5));
+}
+
+html{
+    font-size: 62.5%;/* 10px = 1rem */
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+ul{
+    list-style: none;
+}
