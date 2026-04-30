@@ -1,25 +1,30 @@
-.cabecalho {
-    background-color: rgb(167, 114, 114);
+.cabecalho{
+    background-color: #aca5a5;
     width: 100%;
     height: 10%;
 }
 
-.cabecalho__nav,.cabecalho__ul {
+.cabecalho__nav, .cabecalho__ul{
     width: inherit;
     height: inherit;
 }
 
-.cabecalho__nav {
-    display: inline-block;
-    margin: 1.5rem;
+.cabecalho__ul{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.cabecalho__a {
+/* .cabecalho__li{
     display: inline-block;
-    background-color: rgb(64, 64, 218);
-    border-radius: 5%;
-    padding: 1rem;
+    margin:2rem;
+} */
+
+.cabecalho__a{
+    display: inline-block;
+    background-color: #698fca;
+    border-radius: 10px;
     width: 10vw;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -28,7 +33,45 @@
 }
 
 .cabecalho__a:hover{
-    background-color: black;
-    color: aliceblue;
-    
+    background-color: #000000;
+    color: #fff;
 }
+
+@media (min-width:320px){
+
+    .cabecalho__a{
+        font-size: 1.1rem;
+        width: 20vw;
+    }
+}
+
+/* 
+        @media (condição){
+            seletores{
+                regras de estilo
+            }
+        } 
+    
+
+
+min-width: 768px -> tablet
+min-width: 1024px -> desktop
+max-width: 767px -> mobile
+max-width: 1023px -> tablet + mobile
+min-width: A partir de...
+max-width: Até...
+Ex:
+    @media (max-width: 767px){
+        .cabecalho__a{
+            width: 20vw;
+        }
+    }
+
+    Ex:
+    @media (min-width: 768px){
+        .cabecalho__a{
+            width: 10vw;
+        }
+    }
+*/
+

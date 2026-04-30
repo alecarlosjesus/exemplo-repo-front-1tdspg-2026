@@ -1,0 +1,18 @@
+.conteudo__container{
+   display: grid;
+   margin: 1rem;
+   gap:1rem;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.conteudo__sec{
+    background-color: #b495c0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.conteudo__tit{
+    text-align: center;
+    font-size: 2rem;
+}
