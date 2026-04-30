@@ -18,7 +18,6 @@
 .conteudo__sec:hover{
     background-color: #f4e8ff;
     color: #000;
-    width: 110%;
     z-index: 1000;
     font-size: 3rem;
     margin: 0 auto;
