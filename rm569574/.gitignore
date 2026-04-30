@@ -1,0 +1,2 @@
+#ignorando a pasta .vscode que contem informaçoes de configuraçoes da IDE VSCode
+.vscode/
