@@ -1,0 +1,30 @@
+.conteudo__container{
+   display: grid;
+   margin: 1rem;
+   gap:1rem;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.conteudo__sec{
+    background-color: #b495c0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    position: static;
+    transition:all 0.5s;
+}
+
+.conteudo__sec:hover{
+    background-color: #f4e8ff;
+    color: #000;
+    z-index: 1000;
+    font-size: 3rem;
+    margin: 0 auto;
+    position:absolute;
+}
+
+.conteudo__tit{
+    text-align: center;
+    font-size: 2rem;
+}
